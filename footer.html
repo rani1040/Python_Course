@@ -1,0 +1,110 @@
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We are a passionate team dedicated to delivering the best solutions for our customers. Follow us on social media to stay updated!</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: 123 Street, City, Country</p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 MySite. All rights reserved. | Designed by [Your Name]</p>
+    </div>
+</footer>
+
+
+----css-----------------
+/* Footer Styling */
+footer {
+    background: #333;
+    color: white;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 1rem;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #ff6600;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ff6600;
+}
+
+.footer-section p {
+    margin: 0.5rem 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    border-top: 1px solid #555;
+    padding-top: 1rem;
+}
